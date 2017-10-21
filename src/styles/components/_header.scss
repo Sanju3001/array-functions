@@ -1,0 +1,32 @@
+.app-logo {
+  display: block;
+  margin: auto;
+  animation: app-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.header {
+  background-color: $light-blue;
+  color: white;
+  padding: $m-size 0;
+}
+
+// BEM - block element modifier naming convention
+.header__title {
+  text-align: center;
+  font-size: $l-size;
+  margin: 0;
+}
+
+.header__subtitle {
+  text-align: center;
+  color: $off-white;
+  font-size: $m-size;
+  font-weight: 500;
+  margin: 0;
+}

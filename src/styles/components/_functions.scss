@@ -1,0 +1,39 @@
+.message {
+  padding: 0 0 0 2rem;
+  margin-top: 2rem;
+}
+
+.new-message {
+  padding: 0 0 0 2rem;
+  color: $purple;
+  font-size: large;
+}
+
+.add-array {
+  color: $off-white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-array__input {
+  background: $yellow;
+  border: none;
+  color: $off-white;
+  border-bottom: .3rem solid darken($dark-blue, 10%);
+  flex-grow: 1;
+  margin: $s-size;
+  padding: $s-size;
+  font-size: medium;
+}
+
+.button {
+  background: $purple;
+  border: none;
+  border-radius: 6px;
+  border-bottom: .3rem solid darken($purple, 10%);
+  color: white;
+  font-size: $s-size;
+  font-weight: 500;
+  margin: $s-size $s-size $s-size 0;
+  padding: 10px;
+}

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../styles/App.css';
 import Header from './Header';
 import FilterEven from './FilterEven';
 import FilterOdd from './FilterOdd';
@@ -126,8 +125,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div>
         <Header subtitle={"Select a function to get started"} />
         <FilterEven
           myFilterEven={this.myFilterEven}
@@ -154,5 +152,4 @@ export default class App extends Component {
     );
   }
 }
-
 
